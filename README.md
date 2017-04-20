@@ -3,11 +3,16 @@
 
 # Question 1 (Naked Twins)
 Q: How do we use constraint propagation to solve the naked twins problem?  
-A: *Student should provide answer here*
+A: Without taking the advantage of constraint propagation a search procedure consist in a bigger set of posibilities.
+As two boxes in a unit have as possible values the same two values (and only this two values), it's logical that any other boxes are not able of having them as possibles values.
+The same happen for three boxes with three possible values in the same unit. The problem here is that this triplets is a situations that doesn't happen commonly.
 
 # Question 2 (Diagonal Sudoku)
 Q: How do we use constraint propagation to solve the diagonal sudoku problem?  
-A: *Student should provide answer here*
+A: As in the last question.Without taking the advantage of constraint propagation a search procedure consist in a bigger set of posibilities.
+What we are doing in this kind of Sudoku is adding constrains. In every diagonal sudoku there are two units more to add, one by every principal diagonal in board.
+As in other units the solution of Sudoku haven't repeated digits in those principal diagonals.
+In these kind of sudokus the search procedure is reduced in the number of posibilities because  of this restriction.
 
 ### Install
 
